@@ -6,43 +6,42 @@ theme: jekyll-theme-chirpy
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: ko-KR
 
 # Change to your timezone › https://zones.arilyn.cc
-timezone:
+timezone: Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: nashdir # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: 개발하는 변호사의 기록 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  법과 코드 사이에서 배우고 만든 것들을 기록합니다.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://nashdir.dev"
 
 github:
-  username: github_username # change to your GitHub username
+  username: nash-dir # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: # fill in your Twitter/X username (without @) if you have one
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: nashdir # TODO: 표시할 이름(실명 또는 필명)으로 변경하세요
+  email: # TODO: 공개할 이메일 주소를 채우세요 (비워두면 표시되지 않음)
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    - https://github.com/nash-dir # change to your GitHub homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+    # - https://twitter.com/username
     # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
